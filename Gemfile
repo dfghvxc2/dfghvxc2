@@ -77,3 +77,7 @@ end
 #gem for users
 
 gem "devise"
+
+#talwid css for devise
+
+gem "devise-tailwindcssed"
