@@ -14,7 +14,14 @@
   <body class="bg-neutral-400">
     <header class="bg-gray-500 text-white text-center p-5 mb-10 flex justify-between">
 
-      text
+      <div>
+      <% if user_signed_in? %>
+
+      Hello <%=current_user&.email%> !
+
+      <% end %>
+
+      </div>
 
     </header>
     
