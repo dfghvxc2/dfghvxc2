@@ -1,18 +1,17 @@
 <div id="<%= dom_id entry %>">
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Title:</strong>
+  <h2 class="my-5 text-2xl font-bold">
     <%= entry.title %>
-  </p>
+  </h2>
 
   <p class="my-5">
-    <strong class="block font-medium mb-1">Content:</strong>
     <%= entry.content %>
   </p>
 
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Published at:</strong>
+  <div class="my-5">
+  <small>
     <%= entry.published_at %>
-  </p>
+  </small>
+  </div>
 
   <% if action_name != "show" %>
     <%= link_to "Show this entry", entry, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
