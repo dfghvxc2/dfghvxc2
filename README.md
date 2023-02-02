@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is application for learning.
 
-Things you may want to cover:
+## Prerequisites 
 
-* Ruby version
+- Ruby 3+ (see .ruby-version)
+- Rails 7+
+- SQLite3
 
-* System dependencies
+## Configuration
 
-* Configuration
+## Installation
+-bundle install
+-bin/rails db:setup
+-bin/rails tailwindcss:build or bin/rails tailwindcss:watch[poll]
+-bin/rails server
 
-* Database creation
+ 
 
-* Database initialization
+## Tests
 
-* How to run the test suite
+## Deployment
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
